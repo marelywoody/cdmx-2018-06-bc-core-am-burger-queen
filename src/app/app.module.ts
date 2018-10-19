@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './components/login/login.component';
 import { SelectmenuComponent } from './components/selectmenu/selectmenu.component';
+import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 
 import { AuthenticationService } from './services/authentication.service';
 import { AngularFireModule } from '@angular/fire';
@@ -19,7 +20,8 @@ import { environment } from '../environments/environment';
     AppComponent,
     NavbarComponent,
     LoginComponent,
-    SelectmenuComponent
+    SelectmenuComponent,
+    ResetPasswordComponent
   ],
   imports: [
     BrowserModule,
