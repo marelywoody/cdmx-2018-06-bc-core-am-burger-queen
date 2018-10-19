@@ -1,0 +1,9 @@
+header {
+    margin-top: 1.5em;
+  }
+  .nav {
+    min-height: 4em;
+    overflow: hidden;
+    background: #BA351F;
+    color: #E7E8E8;
+  }
