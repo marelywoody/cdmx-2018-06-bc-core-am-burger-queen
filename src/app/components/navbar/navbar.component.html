@@ -2,7 +2,18 @@
   <div class="container">
     <div class="nav row rounded align-items-strech justify-content-between"> 
       <nav class="col-md-12 col-lg-auto d-flex align-items-stretch flex-wrap flex-sm-nowrap">
-      
+        <div *ngIf="isLogin" class="navbar-item ml-auto">
+          <strong >{{nameUser}}</strong>
+        </div>
+        <a href="#contacto" class="c-3 d-flex align-items-center"> 
+          <div class="d-flex flex-column text-center">
+            <ul  class="navbar-nav mx-auto">
+              <li class="nav-item" *ngIf="isLogin">
+                <a class="nav-link h6" href="#" (click)="clickLogout()">Salir</a>
+              </li>
+            </ul>
+          </div>
+        </a>
       </nav>
     </div>
   </div>
