@@ -24,4 +24,9 @@ export class AuthenticationService {
   logout() {
     return this.auth.auth.signOut();
   }
+
+  resetPassword(email: string) {
+    return this.auth.auth.sendPasswordResetEmail(email)
+    .then()
+  }
 }
