@@ -27,6 +27,9 @@ export class AuthenticationService {
 
   resetPassword(email: string) {
     return this.auth.auth.sendPasswordResetEmail(email)
-    .then()
+    .then(() => {
+      alert('Correo enviado');
+    })
+    .catch(err => console.log(err));
   }
 }
