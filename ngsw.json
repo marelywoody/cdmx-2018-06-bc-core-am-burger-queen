@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "index": "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/favicon.ico",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/index.html",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/main.7818357792229c871fe0.js",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/polyfills.f6ae3e8b63939c618130.js",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/runtime.ec2944dd8b20ec099bf3.js",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": [
+        "https:\\/\\/stackpath\\.bootstrapcdn\\.com\\/bootstrap\\/4\\.1\\.3\\/css\\/bootstrap\\.min\\.css",
+        "https:\\/\\/use\\.fontawesome\\.com\\/releases\\/v5\\.4\\.1\\/css\\/all\\.css",
+        "https:\\/\\/code\\.jquery\\.com\\/jquery-3\\.3\\.1\\.slim\\.min\\.js",
+        "https:\\/\\/cdnjs\\.cloudflare\\.com\\/ajax\\/libs\\/popper\\.js\\/1\\.14\\.3\\/umd\\/popper\\.min\\.js",
+        "https:\\/\\/stackpath\\.bootstrapcdn\\.com\\/bootstrap\\/4\\.1\\.3\\/js\\/bootstrap\\.min\\.js"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-128x128.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-144x144.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-152x152.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-192x192.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-384x384.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-512x512.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-72x72.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-96x96.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-10.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-11.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-2.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-3.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-4.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-5.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-6.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-7.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-8.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-9.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch.png",
+        "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen-diagrama-flujo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-10.png": "3f0d115df092a31c11dbf705b11dfb963174c96a",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-11.png": "a6629c17d1c8ab77bc1514bfdab7c3da25acdafa",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-2.png": "143e1e55d05dccad420ed8f06c1a352513d6e144",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-3.png": "ced628a8343dcb22aa82d0f323e581bbe3985fca",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-4.png": "4ed5be2293b5efb4ec0634b69c2eb0c1e414ef55",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-5.png": "e4eed2c2001d0c956ffc7a021482913e60e5475d",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-6.png": "31828d131920bf8200073802b0be70a2eb4bcf8d",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-7.png": "261ac9eed38b8cbefe1ff564c997ab34ac0a2d46",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-8.png": "8d965bf795806e4edbf30dece4272d49da3a57b9",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch-9.png": "5f877f53839fdedf4a4c18cf178967582968444f",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen sketch.png": "aef0a5fb0a73d5e0eb9b289e30cdaa43eaef15e5",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/images/burger-queen-diagrama-flujo.png": "ed984f6ad422405abc9460f40ba12afb090dc749",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/index.html": "b190a356a87e424b7b5ff7f7e37b7d0cd782ce39",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/main.7818357792229c871fe0.js": "23d36408da13257e753b9e29f6b47c4fbca7c135",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/polyfills.f6ae3e8b63939c618130.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://marelywoody.github.io/cdmx-2018-06-bc-core-am-burger-queen/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
