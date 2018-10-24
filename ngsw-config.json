@@ -29,5 +29,19 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {       
+      "name":"firebases",       
+      "urls":[       
+        "https://burger-queen-612cc.firebaseio.com"     
+      ],
+      "cacheConfig": { 
+        "maxSize": 5,
+        "maxAge": "12h", 
+        "timeout": "5s",                                        
+        "strategy": "freshness"  
+      }     
+    }   
   ]
 }
