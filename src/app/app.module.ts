@@ -9,12 +9,14 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './components/login/login.component';
 import { SelectmenuComponent } from './components/selectmenu/selectmenu.component';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { BreakfastComponent } from './components/breakfast/breakfast.component';
+import { DinnerComponent } from './components/dinner/dinner.component';
 
 import { AuthenticationService } from './services/authentication.service';
+import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
-import { environment } from '../environments/environment';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
@@ -23,7 +25,9 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     NavbarComponent,
     LoginComponent,
     SelectmenuComponent,
-    ResetPasswordComponent
+    ResetPasswordComponent,
+    BreakfastComponent,
+    DinnerComponent
   ],
   imports: [
     BrowserModule,
