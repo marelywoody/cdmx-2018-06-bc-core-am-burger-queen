@@ -6,12 +6,16 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './components/login/login.component';
 import { SelectmenuComponent } from './components/selectmenu/selectmenu.component';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { BreakfastComponent } from './components/breakfast/breakfast.component';
+import { DinnerComponent } from './components/dinner/dinner.component';
 
 const routes: Routes = [
   {path:'', component: LoginComponent},
   {path:'navbar', component: NavbarComponent},
   {path:'menu', component: SelectmenuComponent},
-  {path:'reset', component: ResetPasswordComponent}
+  {path:'reset', component: ResetPasswordComponent},
+  {path: 'breakfast', component: BreakfastComponent},
+  {path: 'dinner', component: DinnerComponent}
 ];
 @NgModule({
   imports: [
