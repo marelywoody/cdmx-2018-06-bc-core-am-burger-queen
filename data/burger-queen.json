@@ -1,0 +1,85 @@
+{
+  "breakfast" : [
+    {
+      "item" : "cafe americano",
+      "price" : 5
+    },
+    {
+      "item" : "cafe con leche",
+      "price" : 7
+    },
+    {
+      "item" : "sandwich de jamon y queso",
+      "price" : 10
+    },
+    {
+      "item":"Jugo natural",
+      "price":7
+    }
+  ],
+  "dinner": 
+  {
+    "hamburguesas": {
+      "simple": [
+        {
+          "type": "res",
+          "price":"10"
+        },
+        {
+          "type": "pollo",
+          "price":"10"
+        },
+        {
+          "type": "vegetariana",
+          "price":"10"
+        }
+      ],
+      "doble": [
+        {
+          "type": "res",
+          "price":"15"
+        },
+        {
+          "type": "pollo",
+          "price":"15"
+        },
+        {
+          "type": "vegetariana",
+          "price":"15"
+        }
+      ]
+    },
+    "acompañamientos": [
+      {
+        "type":"papas fritas",
+        "price":"5"
+      },
+      {
+        "type":"onion rings",
+        "price":"5"
+      }
+    ],
+    "bebidas": {
+      "agua": [
+        {
+          "cantidad": "500ml",
+          "price":"5"
+        },
+        {
+          "cantidad": "750ml",
+          "price":"8"
+        }
+      ],
+      "refresco": [
+        {
+          "cantidad": "500ml",
+          "price":"7"
+        },
+        {
+          "cantidad": "750ml",
+          "price":"10"
+        }
+      ]
+    }
+  }
+}
