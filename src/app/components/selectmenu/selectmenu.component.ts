@@ -13,8 +13,8 @@ export class SelectmenuComponent implements OnInit {
   public isLogin: boolean;
   public emailUser: string;
   public userId: string;
-  public break: boolean;
-  public dinne: boolean;
+  public isBreackfast: boolean;
+  public isDinner: boolean;
  
   constructor(
     public authentication: AuthenticationService,
@@ -23,6 +23,8 @@ export class SelectmenuComponent implements OnInit {
 
   ngOnInit() {
     this.loginAuth();
+    this.breackfast();
+    this.dinner();
   }
 
   loginAuth() {
@@ -31,6 +33,8 @@ export class SelectmenuComponent implements OnInit {
         this.isLogin = true;
         this.emailUser = auth.email;
         this.userId = auth.uid;
+        this.isBreackfast = false;
+        this.isDinner = false;
       } else {
         this.isLogin = false;
         this.router.navigate(['/']);
@@ -38,10 +42,12 @@ export class SelectmenuComponent implements OnInit {
     });
   }
   breackfast() {
-    this.break = true;
+    this.isBreackfast = true;
+    this.isDinner = false;
   }
 
   dinner() {
-    this.dinne= true;
+    this.isDinner= true;
+    this.isBreackfast = false;
   }
 }
