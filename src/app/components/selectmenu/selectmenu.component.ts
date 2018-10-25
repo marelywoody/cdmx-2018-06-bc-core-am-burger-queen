@@ -13,6 +13,8 @@ export class SelectmenuComponent implements OnInit {
   public isLogin: boolean;
   public emailUser: string;
   public userId: string;
+  public break: boolean;
+  public dinne: boolean;
  
   constructor(
     public authentication: AuthenticationService,
@@ -31,9 +33,15 @@ export class SelectmenuComponent implements OnInit {
         this.userId = auth.uid;
       } else {
         this.isLogin = false;
-        this.router.navigate(['/'])
+        this.router.navigate(['/']);
       }
     });
   }
+  breackfast() {
+    this.break = true;
+  }
 
+  dinner() {
+    this.dinne= true;
+  }
 }
