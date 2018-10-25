@@ -1,11 +1,10 @@
 <div *ngIf="isLogin">
-  <p>
-    selectmenu works!
-  </p>
-</div>
-<div *ngIf="isLogin">
-  <app-breakfast></app-breakfast>
-</div>
-<div *ngIf="isLogin">
-  <app-dinner></app-dinner>
+  <button (click)="break=!break">Desayuno</button>
+  <button (click)="diner=!diner">Resto del día</button>
+  <div *ngIf="break">
+    <app-breakfast></app-breakfast>
+  </div>
+  <div *ngIf="diner">
+    <app-dinner></app-dinner>
+  </div>
 </div>
