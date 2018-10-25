@@ -1,10 +1,10 @@
 <div *ngIf="isLogin">
-  <button (click)="break=!break">Desayuno</button>
-  <button (click)="diner=!diner">Resto del día</button>
-  <div *ngIf="break">
+  <button (click)="breackfast()">Desayuno</button>
+  <button (click)="dinner()">Resto del día</button>
+  <div *ngIf="isBreackfast">
     <app-breakfast></app-breakfast>
   </div>
-  <div *ngIf="diner">
+  <div *ngIf="isDinner">
     <app-dinner></app-dinner>
   </div>
 </div>
