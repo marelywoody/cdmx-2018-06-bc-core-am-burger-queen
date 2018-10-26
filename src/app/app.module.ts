@@ -11,6 +11,7 @@ import { SelectmenuComponent } from './components/selectmenu/selectmenu.componen
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 import { BreakfastComponent } from './components/breakfast/breakfast.component';
 import { DinnerComponent } from './components/dinner/dinner.component';
+import { OrderComponent } from './components/order/order.component';
 
 import { AuthenticationService } from './services/authentication.service';
 import { environment } from '../environments/environment';
@@ -27,7 +28,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     SelectmenuComponent,
     ResetPasswordComponent,
     BreakfastComponent,
-    DinnerComponent
+    DinnerComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,

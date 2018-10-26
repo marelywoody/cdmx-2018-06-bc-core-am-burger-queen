@@ -1,9 +1,58 @@
 header {
-    margin-top: 1.5em;
-  }
-  .nav {
-    min-height: 4em;
-    overflow: hidden;
-    background: #BA351F;
-    color: #E7E8E8;
-  }
+  margin-top: 1.5em;
+}
+
+.h6 {
+  font-size: 2em;
+}
+
+#button {
+  text-align: right;
+  text-decoration: none;
+  color: #000000;
+  padding: 0em;
+  margin: 0em;
+  height: 2em;
+  width: 1em;;
+}
+
+#title {
+  font-family: 'Charmonman', cursive;
+  font-size: 4em;
+}
+
+img {
+  height: 8em;
+  width: 12em;
+}
+
+#title, img {
+  display: inline-block;
+}
+
+#img-title, #out-login {
+  display: inline-block;
+}
+
+#out-login {
+  margin: 0em;
+  padding: 0em;
+  height: 2em;
+  width: 1em;
+}
+
+#img-title {
+  padding: 0em;
+  margin: 0em;
+  width: 47em;
+}
+
+#img-login {
+  height: 10em;
+  width: 15em;
+}
+
+#title-login {
+  font-family: 'Charmonman', cursive;
+  font-size: 7em;
+}
