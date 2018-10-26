@@ -1,20 +1,31 @@
-<header>
+<header >
   <div class="container">
-    <div class="nav row rounded align-items-strech justify-content-between"> 
-      <nav class="col-md-12 col-lg-auto d-flex align-items-stretch flex-wrap flex-sm-nowrap">
-        <div *ngIf="isLogin" class="navbar-item ml-auto">
-          <strong >{{nameUser}}</strong>
+    <div class="row" *ngIf="isLogin">
+      <nav class="d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+        <div class="col-md-10 col-lg-10 d-flex align-items-stretch" id="img-title">
+          <img src="../../../assets/images/hamburguesa.jpg" alt="burger">
+          <p id="title">Burger Queen</p>
         </div>
-        <a href="#contacto" class="c-3 d-flex align-items-center"> 
-          <div class="d-flex flex-column text-center">
+        <div class="d-flex flex-column col-2" id="out-login">
+          <a id="button" href="#contacto" class="c-3 d-flex align-items-center"> 
             <ul  class="navbar-nav mx-auto">
               <li class="nav-item" *ngIf="isLogin">
                 <a class="nav-link h6" href="#" (click)="clickLogout()">Salir</a>
               </li>
             </ul>
-          </div>
-        </a>
+          </a>
+        </div>
       </nav>
     </div>
   </div>
+  <div class="container">
+      <div class="row" *ngIf="!isLogin">
+        <nav class="d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+          <div class="col-md-12 col-lg-12 d-flex align-items-stretch">
+            <img id="img-login" src="../../../assets/images/hamburguesa.jpg" alt="burger">
+            <p id="title-login">Burger Queen</p>
+          </div>
+        </nav>
+      </div>
+    </div>
 </header>

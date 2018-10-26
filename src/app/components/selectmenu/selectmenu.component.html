@@ -1,10 +1,15 @@
-<div *ngIf="isLogin">
-  <button (click)="breackfast()">Desayuno</button>
-  <button (click)="dinner()">Resto del día</button>
-  <div *ngIf="isBreackfast">
+<div *ngIf="isLogin" class="conteiner-menu">
+  <button class="btn btn-warning" (click)="breackfast()">Desayuno</button>
+  <button class="btn btn-warning" (click)="dinner()">Resto del día</button>
+  <div class="breackfast" *ngIf="isBreackfast">
     <app-breakfast></app-breakfast>
   </div>
-  <div *ngIf="isDinner">
+  <div class="dinner" *ngIf="isDinner">
     <app-dinner></app-dinner>
+  </div>
+</div>
+<div *ngIf="isLogin" class="conteiner-menu">
+  <div>
+    <app-order></app-order>
   </div>
 </div>

@@ -8,6 +8,7 @@ import { SelectmenuComponent } from './components/selectmenu/selectmenu.componen
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 import { BreakfastComponent } from './components/breakfast/breakfast.component';
 import { DinnerComponent } from './components/dinner/dinner.component';
+import { OrderComponent } from './components/order/order.component';
 
 const routes: Routes = [
   {path:'', component: LoginComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path:'menu', component: SelectmenuComponent},
   {path:'reset', component: ResetPasswordComponent},
   {path: 'breakfast', component: BreakfastComponent},
-  {path: 'dinner', component: DinnerComponent}
+  {path: 'dinner', component: DinnerComponent},
+  {path: 'order', component: OrderComponent}
 ];
 @NgModule({
   imports: [

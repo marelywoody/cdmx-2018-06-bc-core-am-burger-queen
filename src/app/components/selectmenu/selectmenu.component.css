@@ -1,0 +1,14 @@
+.conteiner-menu {
+  display: inline-block;
+  padding-top: 2em;
+}
+
+.breackfast, .dinner {
+  padding-top: 2em;
+}
+
+.btn {
+  height: 3em;
+  width: 10em;
+  font-size: 1.8em;
+}
